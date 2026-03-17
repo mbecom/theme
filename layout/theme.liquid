@@ -433,6 +433,8 @@
     </noscript>
 
     {{ 'base.css' | asset_url | stylesheet_tag: preload: true }}
+    {{ 'moonbundle-steps.css' | asset_url | stylesheet_tag }}
+
     {% if is_rtl %}
       {{ 'rtl.css' | asset_url | stylesheet_tag: preload: true }}
     {% endif %}
