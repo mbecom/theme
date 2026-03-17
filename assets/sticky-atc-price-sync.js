@@ -164,3 +164,4 @@
   document.addEventListener('change', scheduleSyncAll, true);
   document.addEventListener('click', scheduleSyncAll, true);
 })();
+<script src="{{ 'moonbundle-steps.js' | asset_url }}" defer="defer"></script>
